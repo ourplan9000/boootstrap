@@ -2,6 +2,23 @@
     ViewData["Title"] = "Home Page";
 }
 
+<style>
+    .row {
+        margin-bottom: 20px;
+    }
+    .row.row {
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+
+    [class*="col-"] {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #eee;
+        background-color: rgba(86, 61, 124, 15);
+        
+    }
+</style>
 <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
     <h1 class="display-4">Bootstrap 4, Asp.Net Core Starter Application</h1>
     <p class="lead">Get started quickly with this application.</p>
@@ -16,54 +33,35 @@
     <p class="text-center">极客学院</p>
     <abbr title="phone">P:123131</abbr>
 </div>
-<div class="card-deck mb-3 text-center">
-    <div class="card mb-4 box-shadow">
-        <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Free</h4>
-        </div>
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-                <li>10 users included</li>
-                <li>2 GB of storage</li>
-                <li>Email support</li>
-                <li>Help center access</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-outline-primary">Sign up for free</button>
-        </div>
+
+<div class="container">
+    <div class="row">
+        <div class=".col-4">极客学院</div>
+        <div class=".col-4">极客学院</div>
+        <div class=".col-4">极客学院</div>
     </div>
-    <div class="card mb-4 box-shadow">
-        <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Pro</h4>
-        </div>
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">$15 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-                <li>20 users included</li>
-                <li>10 GB of storage</li>
-                <li>Priority email support</li>
-                <li>Help center access</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Get started</button>
-        </div>
-    </div>
-    <div class="card mb-4 box-shadow">
-        <div class="card-header">
-            <h4 class="my-0 font-weight-normal">Enterprise</h4>
-        </div>
-        <div class="card-body">
-            <h1 class="card-title pricing-card-title">$29 <small class="text-muted">/ mo</small></h1>
-            <ul class="list-unstyled mt-3 mb-4">
-                <li>30 users included</li>
-                <li>15 GB of storage</li>
-                <li>Phone and email support</li>
-                <li>Help center access</li>
-            </ul>
-            <button type="button" class="btn btn-lg btn-block btn-primary">Contact us</button>
+</div>
+ 
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4 offset-md-4">
+            one
+            <div class="row">
+                <div class="col-1">
+                    first
+                </div>
+                <div class="col-1">
+                    second
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
+<div class="progress">
+    <div class="progress-bar" style="width:70%"></div>
+</div>
 
 <div class="card-deck mb-3 text-center">
     <div class="card mb-4 box-shadow">
@@ -71,7 +69,7 @@
             <h4 class="my-0 font-weight-normal">Free</h4>
         </div>
         <div class="card-body">
-            <h1 class="card-title pricing-card-title">$0 <small class="text-muted">/ mo</small></h1>
+            <h1 class="card-title ">$0 <small class="text-muted">/ mo</small></h1>
             <ul class="list-unstyled mt-3 mb-4">
                 <li>10 users included</li>
                 <li>2 GB of storage</li>
