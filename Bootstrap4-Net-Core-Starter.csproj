@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
     <UserSecretsId>aspnet-Bootstrap4_Net_Core_Starter-13E54AE2-C7E9-47F4-834D-FD937CFE14E0</UserSecretsId>
   </PropertyGroup>
 
