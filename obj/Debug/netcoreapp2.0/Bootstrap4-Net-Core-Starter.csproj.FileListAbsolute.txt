@@ -1,0 +1,12 @@
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\bin\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.deps.json
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\bin\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.runtimeconfig.json
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\bin\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.runtimeconfig.dev.json
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\bin\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.dll
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\bin\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.pdb
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\obj\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.csprojAssemblyReference.cache
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\obj\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.csproj.CoreCompileInputs.cache
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\obj\Debug\netcoreapp2.0\UserSecretsAssemblyInfo.cs
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\obj\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.AssemblyInfoInputs.cache
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\obj\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.AssemblyInfo.cs
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\obj\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.dll
+E:\gitSource\bootstrapdemo\Bootstrap4-Net-Core-Starter\obj\Debug\netcoreapp2.0\Bootstrap4-Net-Core-Starter.pdb

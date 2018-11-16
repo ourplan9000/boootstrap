@@ -1,0 +1,41 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] -  @Configuration["name"]</title>
+
+    <link rel="stylesheet" href="~/lib/vendor.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+
+</head>
+<body>
+    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
+        <h5 class="my-0 mr-md-auto font-weight-normal"><a class="p-2 text-dark" asp-area="" asp-controller="Home" asp-action="Index"> @Configuration["name"] </a></h5>
+        <nav class="my-2 my-md-0 mr-md-3">
+            <a class="p-2 text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+            <a class="p-2 text-dark" asp-area="" asp-controller="Home" asp-action="About">About</a>
+            <a class="p-2 text-dark" asp-area="" asp-controller="Home" asp-action="Contact">Contact</a>
+        </nav>
+        @await Html.PartialAsync("_LoginPartial")
+    </div>
+
+
+    <div class="container">
+
+        @RenderBody()
+
+        <hr />
+
+        <footer>
+            <p>&copy; @DateTime.Now.Year -  @Configuration["name"]</p>
+        </footer>
+    </div>
+    <script src="~/lib/vendor.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+</body>
+</html>
