@@ -13,19 +13,34 @@
 
 </head>
 <body>
-    <div class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-white border-bottom box-shadow">
-        <h5 class="my-0 mr-md-auto font-weight-normal"><a class="p-2 text-dark" asp-area="" asp-controller="Home" asp-action="Index"> @Configuration["name"] </a></h5>
-        <nav class="my-2 my-md-0 mr-md-3">
-            <a class="navbar-brand" 
-               asp-area="" asp-controller="Home" 
-                asp-action="Index">Home</a>
-            <a class="p-2 text-dark" 
-               asp-area="" asp-controller="Home" 
-                asp-action="About">About</a>
-            <a class="p-2 text-dark" 
-               asp-area="" asp-controller="Home" 
-                asp-action="Contact">Contact</a>
-        </nav>
+    <div class="container">
+
+        <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"> @Configuration["name"] </a>
+
+
+        <ul class="pagination" role="menu">
+
+            <li>
+
+                <a asp-controller="Home"
+                   asp-action="Index">Home</a>
+
+            </li>
+            <li>
+
+                <a asp-controller="Home"
+                   asp-action="About">About</a>
+
+            </li>
+            <li>
+
+                <a asp-controller="Home"
+                   asp-action="Contact">Contact</a>
+
+            </li>
+        </ul>
+
+
         @await Html.PartialAsync("_LoginPartial")
     </div>
 
