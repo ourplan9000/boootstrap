@@ -1,0 +1,77 @@
+﻿
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+<div class="container">
+    @*<div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="https://www.baidu.com/"></iframe>
+    </div>*@
+    <div class="well">
+        look I'm in a well.
+    </div>
+    <nav>
+        <ul class="pagination pagination-lg">
+            <li class="disabled"><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">&raquo;</a></li>
+
+        </ul>
+    </nav>
+
+    <nav>
+        <ul class="pagination pagination-sm">
+            <li class="disabled"><a href="#">&laquo;</a></li>
+            <li class="active"><a href="#">1</a></li>
+            <li><a href="#">2</a></li>
+            <li><a href="#">3</a></li>
+            <li><a href="#">4</a></li>
+            <li><a href="#">&raquo;</a></li>
+
+        </ul>
+    </nav>
+
+    <nav>
+        <ul class="pager">
+            <li><a href="#">上一页</a></li>
+            <li><a href="#">下一页</a></li>
+        </ul>
+    </nav>
+    <nav>
+        <ul class="pager">
+            <li class="previous"><a href="#">上一页</a></li>
+            <li class="next"><a href="#">下一页</a></li>
+        </ul>
+    </nav>
+    <button class="btn btn-success">短消息 <span class="badge">30</span></button>
+    <span class="label label-default"> 默认</span>
+    <span class="label label-danger"> 危险</span>
+    <span class="label label-success"> 成功</span>
+    <span class="label label-info"> 信息</span>
+    <span class="label label-warning"> 警告</span>
+    <h3>这是一个主标题 <span class="label label-default"> 描述</span></h3> 
+    <ul class="nav nav-pills" role="tablist">
+        <li role="presentation"  class="active" ><a href="#"  > home<span class="badge">30</span></a></li>
+        <li role="presentation"><a href="#"> profile<span class="badge">30</span></a></li>
+        <li role="presentation"><a href="#"> message<span class="badge">30</span></a></li>
+
+    </ul>
+</div>
+<script>
+    $('ul.nav-pills li').click(function (e) {
+       e.preventDefault();
+
+        //$(this).toggleClass('active'); 
+            //如果有的修改类的状态 
+        $('ul.nav-pills li').removeClass('active'); 
+            //如果没有的话修改类的状态
+            $(this).toggleClass('active');
+         
+        
+        //$(this).tab("show");
+    });
+          
+</script>

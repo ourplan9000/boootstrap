@@ -22,6 +22,7 @@ namespace Bootstrap4_Net_Core_Starter.Controllers
             return View();
         }
 
+
         public IActionResult Contact()
         {
             ViewData["Message"] = "Your contact page.";
@@ -32,6 +33,11 @@ namespace Bootstrap4_Net_Core_Starter.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        public IActionResult boot()
+        {
+            return View();
         }
     }
 }
